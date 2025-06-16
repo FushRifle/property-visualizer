@@ -1,0 +1,43 @@
+import { Tower } from "@/types/page";
+
+export const TOWERS: Tower[] = [
+    {
+        id: "tower-a",
+        name: "Stunning intracoastal Tower",
+        image: "/towers/tower1.jpg",
+        address: "400 Leslie Dr, Hallandale Beach, FL 33009 ",
+        floors: 25,
+        availableUnits: 12,
+        startingPrice: 2750,
+        completionDate: "Q2 2024",
+        amenities: ["Swimming Pool", "Gym", "Parking"],
+        architect: "John Doe",
+        description: "Stunning intracoastal views from this spacious corner unit apartment in the desirable Three Island community of Hallandale Beach. This waterfront lifestyle apartment has 2 split beds, 2 large full baths, Walk-in closet, open kitchen with granite countertop breakfast bar, generous living and dining room with white shiny tiles that add a touch of contemporary look, expansive balcony. Appliances, washer & dryer hookups for added convenience. Clubhouse, resort style, tennis court, pool, sauna, game room, gym, shuffleboard, bike room, library. 24Hrs security, covered parking, water, cable and trash included on rent. Walking distance to the beach, easy access to Gulfstream Park, all major highways and short drive away from downtown Miami. 2 years rental permitted by the Condo Association.",
+    },
+    {
+        id: "tower-b",
+        name: "Bright and spacious Penthouse",
+        image: "/towers/tower2.jpg",
+        address: "2501 S Ocean Dr Unit PH01, Hollywood",
+        floors: 30,
+        availableUnits: 5,
+        startingPrice: 950000,
+        completionDate: "Q3 2024",
+        amenities: ["Swimming Pool", "Gym", "Parking"],
+        architect: "John Doe",
+        description: "Available June 2025 - Bright and spacious Penthouse with breathtaking Ocean and Intracoastal views. Enjoy the beautiful Sunrise and Sunset from your balcony. Available for Seasonal rent minimum of 3 months. Condo nicely decorated and fully equipped and furnished. Experience The Wave Lifestyle - one of the finest and most exclusive Luxury buildings on the Beach for the price value. Great amenities: Newly remodeled Resort-style pool deck with lush palm trees, fountains, Jacuzzi and GYM overlooking the ocean, and complimentary Beach services.",
+    },
+    {
+        id: "tower-c",
+        name: "Stunning Oceanfront Condo",
+        image: "/towers/tower3.jpg",
+        address: "3001 S Ocean Dr Unit OCEAN VIEW, Hollywood, FL 33019",
+        floors: 20,
+        availableUnits: 8,
+        startingPrice: 650000,
+        completionDate: "Q1 2025",
+        amenities: ["Swimming Pool", "Gym", "Parking"],
+        architect: "John Doe",
+        description: "Tower C is a modern residential tower located in the heart of the city. It features a modern design and a luxurious interior.",
+    },
+];
